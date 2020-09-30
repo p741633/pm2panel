@@ -1,36 +1,57 @@
 {
-  "name": "pm2panel",
-  "version": "1.0.0",
-  "description": "pm2 web control panel to manager process with web ui",
-  "main": "pm2panel.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://A1Gard@github.com/4xmen/pm2panel.git"
-  },
-  "keywords": [
-    "pm2",
-    "process",
-    "cotrol",
-    "panel",
-    "web",
-    "ui"
-  ],
-  "author": "A1Gard",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/4xmen/pm2panel/issues"
-  },
-  "homepage": "https://github.com/4xmen/pm2panel#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "child_process": "^1.0.2",
-    "express": "^4.16.2",
-    "express-session": "^1.15.6",
-    "fs": "0.0.1-security",
-    "node-linux-pam": "0.0.1",
-    "path": "^0.12.7"
-  }
+    "name": "pm2panel",
+    "version": "1.0.0",
+    "description": "pm2 web control panel to manager process with web ui",
+    "main": "pm2panel.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://A1Gard@github.com/4xmen/pm2panel.git"
+    },
+    "keywords": [
+        "pm2",
+        "process",
+        "cotrol",
+        "panel",
+        "web",
+        "ui"
+    ],
+    "author": "A1Gard",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/4xmen/pm2panel/issues"
+    },
+    "homepage": "https://github.com/4xmen/pm2panel#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "child_process": "^1.0.2",
+        "dotenv": "^8.2.0",
+        "express": "^4.16.2",
+        "express-session": "^1.15.6",
+        "fs": "0.0.1-security",
+        "node-linux-pam": "0.0.1",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "gulp-html-minifier-terser": "^6.0.1",
+        "gulp-rename": "^2.0.0",
+        "jshint": "^2.12.0",
+        "prettier": "^2.1.1",
+        "stylelint": "^13.6.1",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-prettier": "^1.1.2"
+    }
 }
