@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-         <title>Login | PM2 panel</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login | PM2 panel</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script type="text/javascript" src="/assets/js/vue.js"></script>
         <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
         <link type="text/css" rel="stylesheet" href="/assets/css/normalize.css" />
@@ -12,22 +12,19 @@
     </head>
     <body>
         <div id="login">
-            <h1>
-                Login to Pm2 panel
-            </h1>
+            <h1>Login to Pm2 panel</h1>
             <form method="post" action="/loginCheck">
-                <p class="err" style="display:none;color:red;margin:2em auto 1.5em auto;text-align:center;"></p>
+                <p class="err" style="display: none; color: red; margin: 2em auto 1.5em auto; text-align: center"></p>
                 <fieldset>
                     <label for="user">Username</label>
-                    <input type="text" placeholder="Username" id="user" name="username">
+                    <input type="text" placeholder="Username" id="user" name="username" />
 
                     <label for="pass">Password</label>
-                    <input type="password" placeholder="Password" id="pass" name="passwd">
+                    <input type="password" placeholder="Password" id="pass" name="passwd" />
 
-                    <input class="button-primary" type="submit" value="Send">
+                    <input class="button-primary" type="submit" value="Send" />
                 </fieldset>
             </form>
-
         </div>
 
         <script type="text/javascript">
