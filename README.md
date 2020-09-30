@@ -2,22 +2,21 @@
 
 you can do with this application with web GUI and without any command:
 
- * Add process to pm2
- * Remove process from pm2
- * Restart process in pm2
- * show log of process in pm2
- * Save processes
- * has login
+-   Add process to pm2
+-   Remove process from pm2
+-   Restart process in pm2
+-   show log of process in pm2
+-   Save processes
+-   has login
 
 ![](http://4uploader.com/upload/file/201804_1/pm2%20gif5acc753a.gif)
 
 Requirement:
 
- * nodejs
- * libpam0g-dev (for PAM authentication)
+-   nodejs
+-   libpam0g-dev (for PAM authentication)
 
 ## how use:
-
 
 ```bash
 git clone https://github.com/4xmen/pm2panel.git
@@ -28,23 +27,30 @@ node pm2panel
 
 if you have problem in `npm install` step run this command on linux:
 
+Debian/Ubuntu : apt-get install -y build-essential
+
+CentOS : yum install gcc gcc-c++ make
+
+Fedora 23 and above : dnf install @development-tools
+
 On all the Debian/Ubuntu :
+
 ```bash
 sudo apt-get install libpam0g-dev
 ```
+
 On all the Centos and RHEL:
+
 ```bash
 sudo yum install pam-devel
 ```
 
-
-Then you can go to url : http://localhost:3001 or http://server_ip:3001 and the default user is `admin` and password is `admin`.
-
+Then you can go to url : http://localhost:4000 or http://server_ip:4000 and the default user is `admin` and password is `admin`.
 
 you can change config in first lines of `pm2panel.js`:
 
 ```javascript
-const PORT = 3001;
+const PORT = 4000;
 const PAM_AUTH = true; // if set to true, USER and PASS won't be used
 const USER = 'admin';
 const PASS = 'admin';
