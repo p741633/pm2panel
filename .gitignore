@@ -60,3 +60,6 @@ typings/
 
 /nbproject/private/
 /tut4xmen/nbproject/private/
+
+# dist folder
+/dist
