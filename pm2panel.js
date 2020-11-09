@@ -24,6 +24,7 @@ const PAM_AUTH = false; // if set to true, USER and PASS won't be used
 const USER = process.env.USERNAME;
 const PASS = process.env.PASSWORD;
 const SESSTION_AGE = 10 * 60000; // 10 minutes
+// const BASEURL = process.env.BASEURL;
 
 // Use the session middleware
 app.use(session({ secret: 'keyboard cat', cookie: { maxAge: SESSTION_AGE } }));
